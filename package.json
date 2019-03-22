@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@mdx-js/loader": "^0.20.3",
     "cabana-react": "0.0.6",
     "cabanaico": "^0.0.2-development",
-    "mdx.macro": "^0.2.8",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
     "react-router-dom": "^5.0.0",
