@@ -3,9 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "cabana-react": "0.0.6",
+    "cabanaico": "^0.0.2-development",
+    "mdx.macro": "^0.2.8",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
-    "react-scripts": "2.1.8"
+    "react-router-dom": "^5.0.0",
+    "react-router-hash-link": "^1.2.1",
+    "react-scripts": "2.1.8",
+    "react-syntax-highlighter": "^10.2.1",
+    "styled-components": "^4.1.3",
+    "styled-system": "^4.0.6"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -21,5 +29,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "react-app-rewired": "^2.1.1"
+  }
 }
