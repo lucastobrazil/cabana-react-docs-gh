@@ -1,11 +1,11 @@
+import React, { Suspense, lazy } from 'react';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+import { Box } from 'cabana-react';
 import { ThemeProvider } from 'styled-components';
 
-import React, { Suspense, lazy } from 'react';
 import cabanaDefaultTheme, { bainTheme, darkTheme } from './docsTheme';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
-import { Box } from 'cabana-react';
-import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import Loading from './components/Loading';
 
 const ComponentLibrary = lazy(() => import('./pages/ComponentLibrary'));
