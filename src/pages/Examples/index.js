@@ -1,5 +1,4 @@
 import React from 'react';
-import styled from 'styled-components';
 import { Box, Button, Card, CardBodyText, CardImage, LeadText, HeadingThree, HeadingFive } from 'cabana-react';
 import { IconHome, IconCart, IconSettings, IconPodcast, IconEq, IconMenu, IconEuro } from 'cabanaico';
 

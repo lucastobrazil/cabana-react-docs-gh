@@ -10,7 +10,7 @@ export default function GettingStarted(props) {
       <SectionHeading>Getting Started</SectionHeading>
       <SubHeading>Install</SubHeading>
       <Install />
-      <BodyText mt={2}>Now you're good to go! 🎉</BodyText>
+      <BodyText mt={2}>Now you're good to go! <span role="img" aria-label="Party Emoji">🎉</span></BodyText>
       <SubHeading>Your first Cabana component</SubHeading>
       <Box mb={4}>
         <CodeExample mr={2} showLineNumbers>{`import { ThemeProvider } from 'styled-components';

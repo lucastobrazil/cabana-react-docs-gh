@@ -7,7 +7,7 @@ class StatefulRadioButtons extends React.Component {
     super();
 
     this.state = {
-      selected: 'anakin_skywalker',
+      selected: 'obi_wan',
     };
 
     this.handleChange = this.handleChange.bind(this);
@@ -44,8 +44,7 @@ class StatefulRadioButtons extends React.Component {
         />
         <Radio
           value="anakin_skywalker"
-          label="Anakin Skywalker"
-          checked
+          label="Anakin Skywalker (disabled)"
           disabled
           checked={this.state.selected === 'anakin_skywalker'}
           onChange={this.handleChange}

@@ -50,7 +50,7 @@ export default function BestPractices(props) {
           <TextInput p={3} placeholder="Input Text" mt={2} width="150px" />
         </SectionGrid>
         <SectionGrid>
-          <img src={require('../../images/input_metrics.png')} style={{ maxWidth: '100%' }} />
+          <img alt="Input sizing in Sketch" src={require('../../images/input_metrics.png')} style={{ maxWidth: '100%' }} />
         </SectionGrid>
       </Card>
       <Callout my={2}>

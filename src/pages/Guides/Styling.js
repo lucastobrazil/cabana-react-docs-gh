@@ -1,9 +1,8 @@
 import React from 'react';
 import { BodyText } from 'cabana-react';
-import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
-import Section, { SectionHeading, SubHeading } from '../../components/Section';
+import Section, { SectionHeading } from '../../components/Section';
 
 export default function Styling(props) {
   return (

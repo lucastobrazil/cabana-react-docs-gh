@@ -110,7 +110,7 @@ const Intro = () => (
             <ListItem>Symbol overrides allow you to select pre-set layer styles etc.</ListItem>
             <ListItem>Full control over content / iconography etc.</ListItem>
           </ul>
-          <img style={{ maxWidth: '100%' }} src={require('../../images/example_button.png')} />
+          <img alt="Example Sketch Button" style={{ maxWidth: '100%' }} src={require('../../images/example_button.png')} />
         </SectionGrid>
         <SectionGrid>
           <HeadingFour textAlign="center" mt={0}>
@@ -176,7 +176,7 @@ const MoreExamples = () => (
     <Section display="flex" flexWrap={['wrap', 'nowrap']}>
       <SectionGrid>
         <HeadingThree mb={1}>Sketch Layer Styles</HeadingThree>
-        <img style={{ maxWidth: 300 }} src={require('../../images/colors_sketch.png')} />
+        <img alt="Some colours in sketch" style={{ maxWidth: 300 }} src={require('../../images/colors_sketch.png')} />
       </SectionGrid>
       <SectionGrid>
         <HeadingThree mb={1}>Theme JS object</HeadingThree>
@@ -256,7 +256,7 @@ const Story = () => (
     <BodyText>
       Before Cabana-React - your designs had no clear way of being translated into code. Cabana React is basically the
       React equivalent of the Cabana Sketch Library, and they are intended to work together... just like designers and
-      developers 😇
+      developers <span role="img" aria-label="Angel Emoji">😇</span>
     </BodyText>
   </Section>
 );

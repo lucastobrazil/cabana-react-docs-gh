@@ -3,7 +3,7 @@ import { Box, SmallText } from 'cabana-react';
 import Section from '../components/Section';
 
 const year = new Date().getFullYear();
-const Copyright = () => <SmallText color="grey">Made with 💜 by @Mrcndrw and @LucasArundell &copy; {year}</SmallText>;
+const Copyright = () => <SmallText color="grey">Made with <span role="img" aria-label="Purple heart emoji">💜</span> by @Mrcndrw and @LucasArundell &copy; {year}</SmallText>;
 
 export default function Footer() {
   return (
