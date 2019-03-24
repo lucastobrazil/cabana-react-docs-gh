@@ -22,7 +22,7 @@ export default function Home() {
       <MoreExamples />
       <BlogPosts />
       <Story />
-      <Section textAlign="right" fontSize="h5">
+      <Section px={2} textAlign="right" fontSize="h5">
         <ContinueLink to="/guides">Continue to Getting Started ></ContinueLink>
       </Section>
     </Box>
