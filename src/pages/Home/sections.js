@@ -57,11 +57,10 @@ const Intro = () => (
             display="flex"
             flexDirection="column"
             justifyContent="center"
-            // height="calc(100vh - 362px)"
-            mt={-12}
+            height="calc(100vh - 562px)"
         >
             <HeadingOne
-                color="darkGrey"
+                color="primary"
                 fontSize={['h2', 'h1']}
                 fontWeight="bold"
                 letterSpacing="-0.05em"
@@ -72,7 +71,7 @@ const Intro = () => (
                 A design system built for <span style={{ textDecoration: 'underline' }}>both</span> Sketch
                 and React.
             </HeadingOne>
-            <BodyText textAlign="center" mb={4}>
+            <BodyText  mb={4}>
                 Built with{' '}
                 <TextLink is="a" href="http://reactjs.com">
                     React,
@@ -82,7 +81,7 @@ const Intro = () => (
                 </TextLink>{' '}
                 and <TextLink href="https://github.com/jxnblk/styled-system">styled-system</TextLink>.
             </BodyText>
-            <Box display="flex" justifyContent="center">
+            <Box display="flex">
                 <Button
                     is="a"
                     href="https://github.com/lucastobrazil/cabana-react"
@@ -147,7 +146,7 @@ const MyButton = (
 );
 
 const WhyCabana = () => (
-    <Box bg="#fafafa" pb={3} display="flex" flexWrap="wrap" justifyContent="center">
+    <Box bg="primary" color="white" pb={3} display="flex" flexWrap="wrap" justifyContent="center">
         <SectionHeading mt={0} textAlign="center" flex="0 0 100%">
             <Logo width={60} height={60} style={{ verticalAlign: 'middle' }} /> Why Cabana?
         </SectionHeading>
