@@ -107,9 +107,6 @@ export default function Nav({ onThemeChange }) {
               Cabana
             </TextPrimitive>{' '}
             React
-            <TextPrimitive color="tertiary" fontSize="tiny" fontWeight="bold">
-              ALPHA
-            </TextPrimitive>
           </NavLink>
         </BodyText>
   
