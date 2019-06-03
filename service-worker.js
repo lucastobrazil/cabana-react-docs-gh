@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/cabana-react-docs-gh/precache-manifest.eb621e35c5954a0fbda6831946ebfee3.js"
+  "/cabana-react-docs-gh/precache-manifest.94265eea60dab07c21f5ececf4326ff3.js"
 );
 
 workbox.clientsClaim();
