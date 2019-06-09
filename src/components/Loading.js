@@ -1,5 +1,5 @@
 import React from 'react';
-import { themeGet } from 'styled-system';
+import { themeGet } from '@styled-system/theme-get';
 import styled, { keyframes } from 'styled-components';
 import { IconLifeRing } from 'cabanaico';
 const rotate = keyframes`

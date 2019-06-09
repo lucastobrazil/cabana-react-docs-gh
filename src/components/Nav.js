@@ -2,7 +2,7 @@ import React from 'react';
 import { Box, TextPrimitive, BodyText } from 'cabana-react';
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
-import { themeGet } from 'styled-system';
+import { themeGet } from '@styled-system/theme-get';
 import Logo from './Logo';
 import { SpectrumLogo, GitHubLogo } from './Svg';
 import Hamburger from './Hamburger';

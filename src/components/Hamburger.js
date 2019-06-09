@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Button } from 'cabana-react';
-import { themeGet } from 'styled-system';
+import { themeGet } from '@styled-system/theme-get';
 import { IconCaretDown } from 'cabanaico';
 
 const Hamburger = styled(({ isOpen, ...restProps }) => <Button {...restProps} />)`
