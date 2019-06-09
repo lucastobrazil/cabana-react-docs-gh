@@ -106,7 +106,11 @@ export default function Nav({ onThemeChange }) {
             <TextPrimitive fontWeight="bold" color="darkGrey">
               Cabana
             </TextPrimitive>{' '}
-            React
+            React {' '}
+            <TextPrimitive fontSize="tiny" fontWeight="bold">
+              v1.0.0
+            </TextPrimitive>
+
           </NavLink>
         </BodyText>
   
