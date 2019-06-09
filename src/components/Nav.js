@@ -48,9 +48,9 @@ const NavItems = () => (
     <NavButton to="/guides" mr={2}>
       Guides
     </NavButton>
-    <NavButton to="/examples" mr={2}>
+    {/* <NavButton to="/examples" mr={2}>
       Examples
-    </NavButton>
+    </NavButton> */}
     <NavButton to="/components">Components</NavButton>
   </React.Fragment>
 );
