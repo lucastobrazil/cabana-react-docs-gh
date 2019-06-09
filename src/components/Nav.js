@@ -2,7 +2,7 @@ import React from 'react';
 import { Box, TextPrimitive, BodyText } from 'cabana-react';
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
-import { themeGet } from 'styled-system';
+import { themeGet } from '@styled-system/theme-get';
 import Logo from './Logo';
 import { SpectrumLogo, GitHubLogo } from './Svg';
 import Hamburger from './Hamburger';
@@ -48,9 +48,9 @@ const NavItems = () => (
     <NavButton to="/guides" mr={2}>
       Guides
     </NavButton>
-    <NavButton to="/examples" mr={2}>
+    {/* <NavButton to="/examples" mr={2}>
       Examples
-    </NavButton>
+    </NavButton> */}
     <NavButton to="/components">Components</NavButton>
   </React.Fragment>
 );

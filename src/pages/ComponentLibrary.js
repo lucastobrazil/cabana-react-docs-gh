@@ -15,7 +15,7 @@ import Chip from '../docs/Chip.mdx';
 import Tags from '../docs/Tags.mdx';
 import Avatars from '../docs/Avatars.mdx';
 
-import { MDXProvider } from '@mdx-js/tag';
+import { MDXProvider } from '@mdx-js/react';
 
 const H1 = props => <HeadingThree is="h1" pt={12} mb={2} style={{ display: 'block', borderBottom: '1px solid lightgrey' }} {...props} />;
 const H2 = props => <HeadingFive is="h2"  my={2} {...props} />;

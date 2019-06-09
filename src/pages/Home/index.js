@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Box } from 'cabana-react';
-import { themeGet } from 'styled-system';
+import { themeGet } from '@styled-system/theme-get';
 import styled from 'styled-components';
 import Section from '../../components/Section';
 import { Intro, MoreExamples, BlogPosts, Story, GetStarted, WhyCabana } from './sections';
