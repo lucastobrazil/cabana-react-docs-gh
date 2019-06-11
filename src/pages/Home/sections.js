@@ -49,7 +49,7 @@ const BlogPostCard = props => (
 );
 const Intro = () => (
     <React.Fragment>
-        <Box width="100%" height="100%">
+        <Box width="100%" height="100%" color="primary">
             <GradientBg />
         </Box>
         <Section
