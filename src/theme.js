@@ -26,8 +26,8 @@ const theme = {
     normal: 400,
   },
   colors: {
-    primary: '#4D52FF',
-    secondary: '#3d88ca',
+    primary: '#1D49BA',
+    secondary: '#92FFC7',
     tertiary: '#3dcbc6',
     black: '#3e3e47',
     grey: '#6a6b79',
