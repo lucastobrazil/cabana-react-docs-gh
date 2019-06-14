@@ -127,8 +127,8 @@
       "node"
     ],
     "watchPlugins": [
-      "/Users/44358/Documents/Development/cabana-react-docs-gh/node_modules/jest-watch-typeahead/filename.js",
-      "/Users/44358/Documents/Development/cabana-react-docs-gh/node_modules/jest-watch-typeahead/testname.js"
+      "<rootDir>/node_modules/jest-watch-typeahead/filename.js",
+      "<rootDir>/node_modules/jest-watch-typeahead/testname.js"
     ]
   },
   "babel": {
