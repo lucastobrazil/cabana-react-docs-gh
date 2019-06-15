@@ -71,7 +71,7 @@ const Intro = () => (
                 and React.
             </HeadingOne>
             <BodyText  mb={4} mx={[2, 0]} textAlign="center">
-                Built with{' '}
+                Powered by{' '}
                 <TextLink is="a" href="http://reactjs.com">
                     React,
                 </TextLink>{' '}
