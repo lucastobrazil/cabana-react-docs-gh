@@ -57,7 +57,6 @@ const Intro = () => (
             display="flex"
             flexDirection="column"
             justifyContent="center"
-            height="calc(100vh - 562px)"
         >
             <HeadingOne
                 color="primary"
@@ -71,7 +70,7 @@ const Intro = () => (
                 A design system built for <span style={{ textDecoration: 'underline' }}>both</span> Sketch
                 and React.
             </HeadingOne>
-            <BodyText  mb={4}>
+            <BodyText  mb={4} mx={[2, 0]} textAlign="center">
                 Built with{' '}
                 <TextLink is="a" href="http://reactjs.com">
                     React,
