@@ -109,7 +109,7 @@ export default function Nav({ onThemeChange }) {
             alignItems="center"
             is="nav"
         >
-            <BodyText display="inline-block" color="grey" m={0} flex="1 2 auto">
+            <BodyText is="div" display="inline-block" color="grey" m={0} flex="1 2 auto">
                 <NavLink style={{ textDecoration: 'none', color: 'inherit' }} to="/">
                     <Box display="inline-flex" justifyContent="center" alignItems="center" bg="primary" p="6px" borderRadius="large" mr={1}>
                         <Logo size="16" />{' '}
