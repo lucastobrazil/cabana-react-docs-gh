@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "03839e102ef3996adb827e548177d34b",
+    "revision": "b8898a2d60eca9f33863d50e63a9b056",
     "url": "/cabana-react-docs-gh/index.html"
   },
   {
-    "revision": "68380038beedbfbc8ecb",
+    "revision": "906b6bcdfab262fcdb2e",
     "url": "/cabana-react-docs-gh/static/css/main.795991f2.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cabana-react-docs-gh/static/js/7.abd664ae.chunk.js"
   },
   {
-    "revision": "68380038beedbfbc8ecb",
-    "url": "/cabana-react-docs-gh/static/js/main.cac3b435.chunk.js"
+    "revision": "906b6bcdfab262fcdb2e",
+    "url": "/cabana-react-docs-gh/static/js/main.dcb20e50.chunk.js"
   },
   {
     "revision": "9f6313851b77dd9fd0e7",
