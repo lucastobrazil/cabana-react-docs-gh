@@ -11,7 +11,6 @@ import Loading from './components/Loading';
 const ComponentLibrary = lazy(() => import('./pages/ComponentLibrary'));
 const Home = lazy(() => import('./pages/Home'));
 const Guides = lazy(() => import('./pages/Guides'));
-const Examples = lazy(() => import('./pages/Examples'));
 
 class App extends React.Component {
     constructor() {
@@ -45,7 +44,6 @@ class App extends React.Component {
                             <Suspense fallback={<Loading />}>
                                 <Route component={props => <Home {...props} />} exact path="/" />
                                 <Route component={props => <Guides {...props} />} path="/guides" />
-                                <Route component={props => <Examples {...props} />} path="/examples" />
                                 <Route component={props => <ComponentLibrary {...props} />} path="/components" />
                             </Suspense>
                         </Switch>

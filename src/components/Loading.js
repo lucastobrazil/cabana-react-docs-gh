@@ -1,7 +1,7 @@
 import React from 'react';
 import { themeGet } from '@styled-system/theme-get';
 import styled, { keyframes } from 'styled-components';
-import { IconLifeRing } from 'cabanaico';
+import { IconLoaderOutline } from 'cabanaico';
 const rotate = keyframes`
   from {
     transform: rotate(0deg);
@@ -30,7 +30,7 @@ const LoadingSpinner = styled.div`
 `;
 
 LoadingSpinner.defaultProps = {
-  children: <IconLifeRing />,
+  children: <IconLoaderOutline />,
 };
 export default function Loading() {
   return (
