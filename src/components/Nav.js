@@ -119,7 +119,7 @@ export default function Nav({ onThemeChange }) {
                     </TextPrimitive>{' '}
                     React{' '}
                     <TextPrimitive fontSize="tiny" fontWeight="bold">
-                        v1.0.0
+                        v1.1.0
                     </TextPrimitive>
                 </NavLink>
             </BodyText>
