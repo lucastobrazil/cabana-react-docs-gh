@@ -12,7 +12,7 @@ import {
     Button,
     ButtonSmall,
 } from 'cabana-react';
-import { IconHeart, IconArrowRight } from 'cabanaico';
+import { IconHeartOutline, IconArrowForwardOutline } from 'cabanaico';
 import { Gradient } from '../../components/Svg';
 import styled from 'styled-components';
 import Section, { SectionGrid, TextLink, SectionHeading, SubHeading } from '../../components/Section';
@@ -131,13 +131,13 @@ const MyButton = (
         bg="primary" 
         fontWeight="bold" 
     >
-        <IconHeart /> Like
+        <IconHeartOutline /> Like
     </Button>
 );
         `}
                     </CodeExample>
                     <Button bg="primary" color="white" mt={1}>
-                        <IconHeart /> Like
+                        <IconHeartOutline /> Like
                     </Button>
                 </SectionGrid>
             </Box>
@@ -252,7 +252,7 @@ const GetStarted = () => (
                 <Box mb={2} />
                 <ButtonSmall bg="primary" color="white" display="block" my={1}>
                     <StyledLink to="/guides">
-                        Getting Started Guide <IconArrowRight />
+                        Getting Started Guide <IconArrowForwardOutline />
                     </StyledLink>
                 </ButtonSmall>
             </SectionGrid>

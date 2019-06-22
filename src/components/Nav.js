@@ -73,7 +73,7 @@ class ToggleNav extends React.Component {
     render() {
         const { isOpen } = this.state;
         return (
-            <Box display={['block', 'none']}>
+            <Box display={['block', 'none']} fontSize="h5">
                 <Hamburger onClick={this.toggleOpen} isOpen={isOpen} />
                 <Box
                     display={isOpen ? 'block' : 'none'}
