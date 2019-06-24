@@ -1,10 +1,23 @@
 import { NotificationBar } from 'cabana-react';
+import { IconAlertTriangleOutline, IconBulbOutline } from 'cabanaico';
 
 <a id="NotificationBar"></a>
 
 # NotificationBar
-<NotificationBar mb={1} content="Oops! There seems to be an error" bg="error" color="white" />
-<NotificationBar mb={1} content="Have you saved your work?" bg="warning" color="black" />
+<NotificationBar 
+    mb={1} 
+    content="Oops! There seems to be an error" 
+    bg="error" 
+    color="white" 
+    icon={<IconAlertTriangleOutline />} 
+/>
+<NotificationBar 
+    mb={1} 
+    content="Have you saved your work?" 
+    bg="warning" 
+    color="black" 
+    icon={<IconBulbOutline />}
+/>
 <NotificationBar mb={1} content="Oh yes! Settings have been saved" bg="success" color="white" />
 <NotificationBar
     mb={1}
