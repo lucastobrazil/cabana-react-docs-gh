@@ -2499,10 +2499,10 @@ bytes@3.1.0:
   resolved "https://registry.yarnpkg.com/bytes/-/bytes-3.1.0.tgz#f6cf7933a360e0588fa9fde85651cdc7f805d1f6"
   integrity sha512-zauLjrfCG+xvoyaqLoV8bLVXXNGC4JqlxFCutSDWA6fJrTo2ZuvLYTqZ7aHBLZSMOopbzwv8f+wZcVzfVTI2Dg==
 
-cabana-react@1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/cabana-react/-/cabana-react-1.1.0.tgz#918786840a24d45b2e4c1e89033973aa2f1e02c4"
-  integrity sha512-vIO0cAi6dHA+Y8yITLxjiM9J1yKM4FBxCP8vvXNqGiEtWhpAzIF+2RC5fxLhIYmZYgd1nvY4n88ZyUixLQwwyQ==
+cabana-react@^1.1.0:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/cabana-react/-/cabana-react-1.1.1.tgz#18b9ff78ecd275f83e828b0e30aa842c2e081ca3"
+  integrity sha512-CjdAyGWd15StPqVvmj7sDz8V1y2QbnJhivrRDoC4TmNoZ4L5EqQFsUc1ilYbRKGWINSBHTWK+BObI5B0hXkLHw==
   dependencies:
     "@rebass/components" "^4.0.0-1"
     "@styled-system/theme-get" "^5.0.5"
